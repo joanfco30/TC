@@ -1,4 +1,4 @@
-"""Programa para controlar las salidad PWM
+"""Programa para controlar un led RGB
     (Pulse Width Modulation)"""
 
 import RPi.GPIO as IO
