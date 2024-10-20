@@ -1,3 +1,5 @@
+"""Programa para apagar y encender un led cada segundo"""
+
 import RPi.GPIO as IO
 import time
 

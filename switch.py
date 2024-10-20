@@ -1,3 +1,6 @@
+"""Programa para controlar un led, apagar y encender cada 1/5 segundo"
+ con un pulsador y finalizar salir con otro"""
+
 import RPi.GPIO as IO
 import time
 
