@@ -1,4 +1,6 @@
+
 import serial
+
 import RPi.GPIO as IO
 import time
 import random
@@ -10,7 +12,7 @@ print(tini)
 IO.setwarnings(False)
 IO.setmode(IO.BOARD)
 
-ser = serial.Serial("/dev/ttyS0",baudrate = 9500)
+ser = serial.Serial("/dev/ttyS0",baudrate = 9600)
 
 
 while True:
